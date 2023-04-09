@@ -1,5 +1,5 @@
 {
-  "name": "04-01-rest-api-with-express",
+  "name": "05-02-graphql-api-with-apollo-server",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -8,10 +8,8 @@
     "dev": "nodemon index.js"
   },
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "swagger-jsdoc": "^6.2.8",
-    "swagger-ui-express": "^4.6.2"
+    "@apollo/server": "^4.6.0",
+    "graphql": "^16.6.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
